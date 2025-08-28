@@ -4,38 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Firma Digital</title>
-  <style>
-    body {
-      background-color: #ffffff; /* Fondo blanco */
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-    h2 {
-      margin-bottom: 10px;
-    }
-    #signature-pad {
-      border: 1px solid #000000;
-      background-color: #ffffff; /* Fondo blanco dentro del recuadro */
-    }
-    .buttons {
-      margin-top: 10px;
-    }
-    button {
-      margin: 5px;
-      padding: 8px 15px;
-      font-size: 14px;
-      cursor: pointer;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h2>HOLA</h2>
-  <canvas id="signature-pad" width="400" height="100"></canvas>
+  <h2>Por favor, firme en el recuadro</h2>
+  <canvas id="signature-pad" width="600" height="100"></canvas>
+  
   <div class="buttons">
     <button onclick="clearPad()">Borrar</button>
     <button onclick="savePad()">Guardar</button>
